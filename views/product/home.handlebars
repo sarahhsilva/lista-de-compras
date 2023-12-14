@@ -1,0 +1,45 @@
+<main class="main">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Adicionar Produto
+</button>
+</main>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome do produto:</label>
+            <input type="text" name="nome" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="quantidade" class="form-label">Quantidade:</label>
+            <input type="text" name="quantidade" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">
+    <p>Nome produto: <span>Quantidade: 10</span></p>
+    <div class="actions">
+        <form action="">
+            <button type="submit" class="btn btn-dander">Editar</button>
+        </form>
+        <form action="">
+            <button type="submit" class="btn btn-dander">Excluir</button>
+        </form>
+    </div>
+  </li>
+ 
+</ul>
